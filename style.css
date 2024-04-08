@@ -1,0 +1,101 @@
+
+body {
+	background-color: #FFDEDE;
+}
+ 
+#banner h1{
+	font-family: Arial Narrow, sans-serif;
+	font-size: 40px;
+	color: #9BCDD2;
+	text-align: center;
+}
+
+
+h2,h3 {
+	font-family: OCR A Std, monospace;
+	color: #FFC0D9;
+	text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.text-second { 
+	font-family: Andale Mono; motion-rotation: ;
+	text-align: center;
+	color:black;
+	font-size: 20px;
+}
+
+.img-circle {
+	border-radius: 10px;
+	max-width: 100%;
+	height:auto;
+	}
+
+#leader{
+	border: 3px #FF8551;
+}
+
+.img-second {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+
+.link-youtube {
+	color: #9BCDD2;
+	text-align: center;
+	margin: 0 20px;
+	font-size: 18px;
+}
+
+.link-youtube:hover {
+	color: #FF8551
+}
+
+
+.link {
+	color: #9BCDD2;
+	text-decoration: : none;
+	transition: color 0,3s ease;
+	text-align: center;
+	margin: 0 20px;
+	font-size: 60px;
+}
+
+.link:hover {
+	color: #FF8551
+}
+
+div:hover{
+	transform: scale(1.1);
+}
+
+div{
+	background: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px #FF8551;
+	border-radius: 10px;
+	margin: 60px auto;
+	width: 40%;
+	text-align: center;
+}
